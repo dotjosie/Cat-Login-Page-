@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Cat &amp; Leaf</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="wrapper">
+  <div class="left"><img id="cat" src="https://i.imgur.com/Wpyzie3.png" alt=""/><img id="leaf" src="https://i.imgur.com/AOtWjbe.png" alt=""/><img class="marginbottom leaves" src="https://i.imgur.com/wsQXHlx.png" alt=""/><img id="fallingleaves" src="https://i.imgur.com/VQI7k6l.png" alt=""/></div>
+  <div class="right">
+    <div class="auth">
+      <div class="auth-header">
+        <h1 class="title">Welcome Back!</h1>
+        <p class="sub">Please enter your details</p>
+      </div>
+      <form id="loginform">
+        <div class="fields">
+          <div class="field">
+            <label>Email</label>
+            <input id="email" type="email" placeholder="xxoo@example.com"/>
+          </div>
+          <div class="field password">
+            <label>Password</label>
+            <div class="password-wrapper">
+              <input id="password" type="password"/>
+              <button class="toggle-password" type="button" aria-label="Show password"><img class="eye-icon" src="https://cdn-icons-png.flaticon.com/512/709/709612.png" alt=""/></button>
+            </div>
+          </div>
+        </div>
+        <div class="options">
+          <label class="remember">
+            <input type="checkbox"/><span>Remember for 30 days</span>
+          </label><a class="forgot" href="#">Forgot Password?</a>
+        </div>
+        <button class="btn primary" type="submit">Log in</button>
+        <button class="btn ghost" type="button"><span class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" alt=""/></span><span>Log in with Google</span></button>
+      </form>
+      <p class="meta">Don’t have an account? <a class="signup" href="#">Sign up</a></p>
+    </div>
+  </div>
+</div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
